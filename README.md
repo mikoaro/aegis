@@ -4,7 +4,7 @@
 
 ---
 
-## \#\# About The Project
+## About The Project
 
 The financial services industry faces a relentless and escalating threat from payment fraud, with potential losses projected to reach billions annually. Traditional fraud detection systems, often relying on slow batch processing and rigid rule engines, are increasingly outmatched. They introduce critical delays, struggle to adapt to new fraud methods, and rely on costly, manual remediation processes that create a poor customer experience.
 
@@ -12,7 +12,7 @@ The financial services industry faces a relentless and escalating threat from pa
 
 This project is a blueprint for building a modern, event-driven, and intelligent security system on AWS, designed to mitigate financial risk and transform security into a transparent, interactive, and trust-building experience.
 
-### \#\#\# Core Features:
+### Core Features:
 
 - **Real-Time Detection:** Ingests and analyzes transaction streams with millisecond latency using Amazon Kinesis and AWS Lambda.
 - **AI-Powered Scoring:** Leverages Amazon Bedrock (e.g., Claude 3 Haiku) to score transactions for fraud probability based on historical context.
@@ -22,11 +22,11 @@ This project is a blueprint for building a modern, event-driven, and intelligent
 
 ---
 
-## \#\# 🚀 Technology Stack
+## 🚀 Technology Stack
 
 Aegis is built on a modern, serverless technology stack, leveraging the power of AWS and cutting-edge frontend frameworks.
 
-### \#\#\# Backend & Cloud Infrastructure:
+### Backend & Cloud Infrastructure:
 
 - **Compute:** AWS Lambda
 - **AI & Agents:** Amazon Bedrock
@@ -38,12 +38,12 @@ Aegis is built on a modern, serverless technology stack, leveraging the power of
 - **Notifications:** Amazon SNS
 - **Logging & Monitoring:** Amazon CloudWatch
 
-### \#\#\# Frontend - Fraud Operations Command Center:
+### Frontend - Fraud Operations Command Center:
 
 - **Framework:** Next.js 15
 - **UI Library:** React 19
 
-### \#\#\# Frontend - Customer Security Companion:
+### Frontend - Customer Security Companion:
 
 - **Framework:** React Native with Expo
 - **Styling:** NativeWind
@@ -51,7 +51,7 @@ Aegis is built on a modern, serverless technology stack, leveraging the power of
 
 ---
 
-##  🏛️ Architecture
+## 🏛️ Architecture
 
 Aegis uses a highly decoupled, event-driven architecture that ensures scalability, resilience, and maintainability.
 
@@ -64,11 +64,11 @@ Aegis uses a highly decoupled, event-driven architecture that ensures scalabilit
 
 ---
 
-##  ✨ Key Features
+## ✨ Key Features
 
 Aegis is not just a backend process; it's a complete security platform with purpose-built interfaces for analysts and customers.
 
-###  Fraud Operations Command Center
+### Fraud Operations Command Center
 
 A web application providing analysts with real-time visibility and control.
 
@@ -76,7 +76,7 @@ A web application providing analysts with real-time visibility and control.
 - **Agent Action Log:** For each threat, the UI displays a clear, timestamped timeline of the automated actions taken by the Bedrock Agent.
 - **Analyst Override with Optimistic UI:** Analysts can override a lock with a single click. The UI leverages React 19's `useOptimistic` hook to provide instant visual feedback.
 
-###  Customer Security Companion
+### Customer Security Companion
 
 A mobile app that turns security into an interactive partnership.
 
@@ -85,7 +85,7 @@ A mobile app that turns security into an interactive partnership.
 
 ---
 
-##  🛠️ Getting Started 
+## 🛠️ Getting Started
 
 This section demonstrates the core end-to-end workflow.
 
@@ -95,13 +95,13 @@ This section demonstrates the core end-to-end workflow.
 - Node.js and Python installed
 - An AWS region with Amazon Bedrock model access
 
-### \#\#\# 1. Backend Deployment:
+### 1. Backend Deployment:
 
 - **Event Simulation:** Use the provided Python script to publish sample transaction events to the Kinesis stream.
 - **Core Logic:** Deploy the core Lambda functions. For the POC, the "tool" Lambdas can simply have mock logic that writes to CloudWatch.
 - **Workflow & Agent:** Configure the Step Functions state machine and the Bedrock Agent with its instructions and OpenAPI schema.
 
-### \#\#\# 2. Frontend Setup:
+### 2. Frontend Setup:
 
 - **Command Center:**
   ```bash
@@ -116,7 +116,7 @@ This section demonstrates the core end-to-end workflow.
 \<details\>
 \<summary\>\<b\>📄 Click to view Sample Bedrock Prompts and OpenAPI Schema\</b\>\</summary\>
 
-### \#\#\# Artifact A: Sample Amazon Bedrock Prompts
+### Artifact A: Sample Amazon Bedrock Prompts
 
 **For the Transaction-Scoring-Function:**
 
@@ -135,7 +135,7 @@ You are Aegis, an autonomous fraud remediation agent. Your sole purpose is to ac
 Your final response should be a JSON object summarizing the outcome of each action.
 ```
 
-### \#\#\# Artifact B: OpenAPI Schema for Bedrock Agent Action Group
+### Artifact B: OpenAPI Schema for Bedrock Agent Action Group
 
 ```json
 {
@@ -175,5 +175,3 @@ Your final response should be a JSON object summarizing the outcome of each acti
   }
 }
 ```
-
-
