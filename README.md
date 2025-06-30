@@ -85,11 +85,11 @@ A mobile app that turns security into an interactive partnership.
 
 ---
 
-## \#\# 🛠️ Getting Started 
+##  🛠️ Getting Started 
 
 This section demonstrates the core end-to-end workflow.
 
-### \#\#\# Prerequisites:
+### Prerequisites:
 
 - AWS Account & AWS CLI configured
 - Node.js and Python installed
