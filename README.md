@@ -176,8 +176,4 @@ Your final response should be a JSON object summarizing the outcome of each acti
 }
 ```
 
-\</details\>
-\</td\>
-\</tr\>
-\</tbody\>
-\</table\>
+
