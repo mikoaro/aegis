@@ -85,9 +85,9 @@ A mobile app that turns security into an interactive partnership.
 
 ---
 
-## \#\# 🛠️ Getting Started (MVP Proof of Concept)
+## \#\# 🛠️ Getting Started 
 
-This section outlines how to set up and run the Minimum Viable Product (MVP) to demonstrate the core end-to-end workflow.
+This section demonstrates the core end-to-end workflow.
 
 ### \#\#\# Prerequisites:
 
