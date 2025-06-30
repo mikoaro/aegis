@@ -51,7 +51,7 @@ Aegis is built on a modern, serverless technology stack, leveraging the power of
 
 ---
 
-## \#\# 🏛️ Architecture
+##  🏛️ Architecture
 
 Aegis uses a highly decoupled, event-driven architecture that ensures scalability, resilience, and maintainability.
 
@@ -64,11 +64,11 @@ Aegis uses a highly decoupled, event-driven architecture that ensures scalabilit
 
 ---
 
-## \#\# ✨ Key Features
+##  ✨ Key Features
 
 Aegis is not just a backend process; it's a complete security platform with purpose-built interfaces for analysts and customers.
 
-### \#\#\# Fraud Operations Command Center
+###  Fraud Operations Command Center
 
 A web application providing analysts with real-time visibility and control.
 
@@ -76,7 +76,7 @@ A web application providing analysts with real-time visibility and control.
 - **Agent Action Log:** For each threat, the UI displays a clear, timestamped timeline of the automated actions taken by the Bedrock Agent.
 - **Analyst Override with Optimistic UI:** Analysts can override a lock with a single click. The UI leverages React 19's `useOptimistic` hook to provide instant visual feedback.
 
-### \#\#\# Customer Security Companion
+###  Customer Security Companion
 
 A mobile app that turns security into an interactive partnership.
 
