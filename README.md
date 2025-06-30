@@ -1,18 +1,7 @@
+# 🛡️ Aegis: A Blueprint for Real-Time, Agentic Fraud Remediation on AWS
 
-\<table\>
-\<thead\>
-\<tr\>
-\<th\>
-\<h1 align="center"\>🛡️ Aegis: A Blueprint for Real-Time, Agentic Fraud Remediation on AWS\</h1\>
-\</th\>
-\</tr\>
-\</thead\>
-\<tbody\>
-\<tr\>
-\<td\>
-\<p align="center"\>
-Aegis is an AI-powered security agent that not just detects fraudulent transactions in real-time—it orchestrates an automated response to block them, notify customers, and initiate investigation workflows, all within milliseconds.
-\</p\>
+## Aegis is an AI-powered security agent that not just detects fraudulent transactions in real-time—it orchestrates an automated response to block them, notify customers, and initiate investigation workflows, all within milliseconds.
+
 
 -----
 
